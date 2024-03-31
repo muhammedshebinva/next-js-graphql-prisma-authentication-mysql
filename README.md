@@ -10,10 +10,10 @@ cd final
 npm install
 
 change the .env file
-datasource db {
-  provider = "mysql"
-  url      = "mysql://janedoe:mypassword@localhost:3306/mydb" ---> give your connection String og mysql
-}
+DATABASE_URL="mysql://root:mypassword@localhost:3306/mydb" --> give your connection String, password, mysql db name
+JWT_SECRET="mysecret@123" --> give your sercret
+
+
 
 npx prisma migrate dev --name init
 npm run dev
