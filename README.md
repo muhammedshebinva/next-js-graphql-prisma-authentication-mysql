@@ -11,6 +11,9 @@ npm install
 ```
 change the .env file
 DATABASE_URL="mysql://root:mypassword@localhost:3306/mydb" --> give your connection String, password, mysql db name
+
+
+
 JWT_SECRET="mysecret@123" --> give your sercret
 
 
